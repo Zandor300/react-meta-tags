@@ -1,7 +1,7 @@
 {
   "name": "@zandor300/react-meta-tags",
   "description": "Handle document meta/head tags in isomorphic react with ease.",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "main": "lib/index.js",
   "author": "Zandor Smith",
   "license": "MIT",
