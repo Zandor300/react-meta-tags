@@ -20,6 +20,7 @@ build-lib:
   artifacts:
     paths:
       - lib/*
+      - dist/*
   needs: []
 
 #build-docs:
