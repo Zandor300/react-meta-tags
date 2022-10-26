@@ -48,6 +48,8 @@
     "@semantic-release/github": "^8.0.6",
     "@semantic-release/gitlab": "^9.4.2",
     "@semantic-release/npm": "^9.0.1",
+    "@types/react": "^18.0.23",
+    "@types/react-dom": "^18.0.7",
     "babel-eslint": "^9.0.0",
     "babel-loader": "^8.0.2",
     "babel-plugin-add-module-exports": "^1.0.0",
