@@ -11,5 +11,6 @@ webpack.dev.config.js
 .eslintrc
 renovate.json
 .gitlab-ci.yml
+.releaserc.json
 
 example.js
