@@ -1,3 +1,10 @@
+# [1.2.0](https://git.zsinfo.nl/Zandor300/react-meta-tags/compare/v1.1.3...v1.2.0) (2022-10-26)
+
+
+### Features
+
+* Support React 17 and 18. ([9218549](https://git.zsinfo.nl/Zandor300/react-meta-tags/commit/9218549225b433d4ece694aaea48a7c1337e70fb))
+
 ## [1.1.3](https://git.zsinfo.nl/Zandor300/react-meta-tags/compare/v1.1.2...v1.1.3) (2022-10-26)
 
 
