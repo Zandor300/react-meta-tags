@@ -1,0 +1,70 @@
+stages:
+  - build
+#  - docs
+  - publish
+  - code-intelligence
+
+workflow:
+  rules:
+    - if: $CI_COMMIT_BRANCH
+
+build-lib:
+  image: node:lts
+  stage: build
+  before_script:
+    - yarn install
+  script:
+    - yarn bundle
+  tags:
+    - docker
+  artifacts:
+    paths:
+      - lib/*
+  needs: []
+
+#build-docs:
+#  image: node:lts
+#  stage: docs
+#  before_script:
+#    - yarn install
+#  script:
+#    - yarn docs:prod
+#  tags:
+#    - docker
+#  artifacts:
+#    paths:
+#      - docs/*
+#  needs:
+#    - job: build-lib
+#      artifacts: true
+
+publish:
+  image: node:lts
+  stage: publish
+  before_script:
+    - yarn install
+  script:
+    - yarn semantic-release
+  cache:
+    key: ${CI_COMMIT_REF_SLUG}
+    paths:
+      - .npm/
+  tags:
+    - docker
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $CI_COMMIT_MESSAGE !~ /chore(release)$/
+  needs:
+    - job: build-lib
+      artifacts: true
+
+code-navigation:
+  image: git.zsinfo.nl:5010/zandor300/docker-lsif
+  stage: code-intelligence
+  script:
+    - lsif-tsc src/**/* --AllowJs --checkJs
+  tags:
+    - docker
+  artifacts:
+    reports:
+      lsif: dump.lsif
+  needs: []
