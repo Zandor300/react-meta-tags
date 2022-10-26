@@ -6,6 +6,10 @@
   "author": "Zandor Smith",
   "license": "MIT",
   "sideEffects": false,
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://git.zsinfo.nl/Zandor300/react-meta-tags"
