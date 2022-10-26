@@ -1,3 +1,10 @@
+## [1.1.2](https://git.zsinfo.nl/Zandor300/react-meta-tags/compare/v1.1.1...v1.1.2) (2022-10-26)
+
+
+### Bug Fixes
+
+* Remove dist and lib folders from Git repository. ([8acd387](https://git.zsinfo.nl/Zandor300/react-meta-tags/commit/8acd3871b952fcc6c70828084907090d7238810c))
+
 ## [1.1.1](https://git.zsinfo.nl/Zandor300/react-meta-tags/compare/v1.1.0...v1.1.1) (2022-10-26)
 
 
