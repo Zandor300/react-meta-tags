@@ -1,6 +1,7 @@
 node_modules/
 src/
 .cache
+.idea/
 
 .gitignore
 
@@ -8,5 +9,7 @@ rollup.config.js
 webpack.dev.config.js
 .babelrc
 .eslintrc
+renovate.json
+.gitlab-ci.yml
 
 example.js
