@@ -1,3 +1,10 @@
+## [1.1.3](https://git.zsinfo.nl/Zandor300/react-meta-tags/compare/v1.1.2...v1.1.3) (2022-10-26)
+
+
+### Bug Fixes
+
+* Fix TypeScript types. ([249c65a](https://git.zsinfo.nl/Zandor300/react-meta-tags/commit/249c65a1936fb41b3597567330a8d78c9d001b61))
+
 ## [1.1.2](https://git.zsinfo.nl/Zandor300/react-meta-tags/compare/v1.1.1...v1.1.2) (2022-10-26)
 
 
