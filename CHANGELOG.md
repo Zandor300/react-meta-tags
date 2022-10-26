@@ -1,3 +1,10 @@
+## [1.1.1](https://git.zsinfo.nl/Zandor300/react-meta-tags/compare/v1.1.0...v1.1.1) (2022-10-26)
+
+
+### Bug Fixes
+
+* Explicitly set to be a public package. ([ad086ca](https://git.zsinfo.nl/Zandor300/react-meta-tags/commit/ad086ca97d4a6fb06bd799bf1af6d182408b7167))
+
 # [1.1.0](https://git.zsinfo.nl/Zandor300/react-meta-tags/compare/v1.0.1...v1.1.0) (2022-10-26)
 
 
